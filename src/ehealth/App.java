@@ -22,11 +22,8 @@ public class App
         if (hostname.equals("127.0.0.1"))
         {
             hostname = "localhost";
-            URI BASE_URI = new URI(protocol + hostname + port+"ehealth/");
         }
-        else {
-            URI BASE_URI = new URI(protocol + hostname + "ehealth/");
-        }
+        URI BASE_URI = new URI(protocol + hostname + "ehealth/");
 
         System.out.println("Starting sdelab standalone HTTP server...");
         JdkHttpServerFactory.createHttpServer(BASE_URI, createApp());
