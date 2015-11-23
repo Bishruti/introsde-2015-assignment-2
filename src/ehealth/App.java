@@ -25,9 +25,12 @@ public class App
                 hostname = "localhost";
             }
             URI BASE_URI = new URI(protocol + hostname + "ehealth/");
+            System.out.println("*********************************");
+            System.out.println(BASE_URI);
 
             System.out.println("Starting sdelab standalone HTTP server...");
             JdkHttpServerFactory.createHttpServer(BASE_URI, createApp());
+
             System.out.println("Server started on " + BASE_URI + "\n[kill the process to exit]");
         }catch (IllegalArgumentException iae) {
             iae.printStackTrace();
