@@ -1,0 +1,438 @@
+Request #1: GET /person Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+First Person Id: 1
+Last Person Id: 301
+Result: OK
+HTTP Status: 200
+<?xml version="1.0" encoding="UTF-8"?><people>
+    <person>
+        <idPerson>1</idPerson>
+        <firstname>Frodo</firstname>
+        <lastname>Baggins</lastname>
+        <birthdate>1990-09-02T00:00:00+02:00</birthdate>
+        <healthProfile>
+            <measureType>
+                <measure>heartrate</measure>
+                <value>100</value>
+            </measureType>
+            <measureType>
+                <measure>height</measure>
+                <value>157</value>
+            </measureType>
+            <measureType>
+                <measure>steps</measure>
+                <value>100</value>
+            </measureType>
+            <measureType>
+                <measure>bmi</measure>
+                <value>20.28</value>
+            </measureType>
+            <measureType>
+                <measure>bloodpressure</measure>
+                <value>120</value>
+            </measureType>
+            <measureType>
+                <measure>weight</measure>
+                <value>50</value>
+            </measureType>
+        </healthProfile>
+    </person>
+    <person>
+        <idPerson>2</idPerson>
+        <firstname>Edward</firstname>
+        <lastname>Cullen</lastname>
+        <birthdate>1987-09-02T00:00:00+02:00</birthdate>
+        <healthProfile>
+            <measureType>
+                <measure>weight</measure>
+                <value>70</value>
+            </measureType>
+            <measureType>
+                <measure>heartrate</measure>
+                <value>120</value>
+            </measureType>
+            <measureType>
+                <measure>height</measure>
+                <value>170</value>
+            </measureType>
+            <measureType>
+                <measure>bloodpressure</measure>
+                <value>100</value>
+            </measureType>
+            <measureType>
+                <measure>steps</measure>
+                <value>120</value>
+            </measureType>
+            <measureType>
+                <measure>bmi</measure>
+                <value>24.22</value>
+            </measureType>
+        </healthProfile>
+    </person>
+    <person>
+        <idPerson>3</idPerson>
+        <firstname>Jacob</firstname>
+        <lastname>Black</lastname>
+        <birthdate>1988-09-02T00:00:00+02:00</birthdate>
+        <healthProfile>
+            <measureType>
+                <measure>heartrate</measure>
+                <value>105</value>
+            </measureType>
+            <measureType>
+                <measure>steps</measure>
+                <value>92</value>
+            </measureType>
+            <measureType>
+                <measure>bloodpressure</measure>
+                <value>91</value>
+            </measureType>
+            <measureType>
+                <measure>bmi</measure>
+                <value>29.19</value>
+            </measureType>
+            <measureType>
+                <measure>height</measure>
+                <value>160</value>
+            </measureType>
+            <measureType>
+                <measure>weight</measure>
+                <value>75</value>
+            </measureType>
+        </healthProfile>
+    </person>
+    <person>
+        <idPerson>4</idPerson>
+        <firstname>Isabella</firstname>
+        <lastname>Swan</lastname>
+        <birthdate>1990-11-04T00:00:00+01:00</birthdate>
+        <healthProfile>
+            <measureType>
+                <measure>weight</measure>
+                <value>50</value>
+            </measureType>
+            <measureType>
+                <measure>bloodpressure</measure>
+                <value>98</value>
+            </measureType>
+            <measureType>
+                <measure>height</measure>
+                <value>160</value>
+            </measureType>
+            <measureType>
+                <measure>steps</measure>
+                <value>80</value>
+            </measureType>
+            <measureType>
+                <measure>heartrate</measure>
+                <value>110</value>
+            </measureType>
+            <measureType>
+                <measure>bmi</measure>
+                <value>19.53</value>
+            </measureType>
+        </healthProfile>
+    </person>
+    <person>
+        <idPerson>5</idPerson>
+        <firstname>Alice</firstname>
+        <lastname>Cullen</lastname>
+        <birthdate>1991-05-12T00:00:00+02:00</birthdate>
+        <healthProfile>
+            <measureType>
+                <measure>height</measure>
+                <value>165</value>
+            </measureType>
+            <measureType>
+                <measure>bmi</measure>
+                <value>20.2</value>
+            </measureType>
+            <measureType>
+                <measure>steps</measure>
+                <value>108</value>
+            </measureType>
+            <measureType>
+                <measure>bloodpressure</measure>
+                <value>100</value>
+            </measureType>
+            <measureType>
+                <measure>weight</measure>
+                <value>55</value>
+            </measureType>
+            <measureType>
+                <measure>heartrate</measure>
+                <value>107</value>
+            </measureType>
+        </healthProfile>
+    </person>
+    <person>
+        <idPerson>6</idPerson>
+        <firstname>Jasper</firstname>
+        <lastname>Cullen</lastname>
+        <birthdate>1988-03-10T00:00:00+01:00</birthdate>
+        <healthProfile>
+            <measureType>
+                <measure>height</measure>
+                <value>171</value>
+            </measureType>
+            <measureType>
+                <measure>weight</measure>
+                <value>60</value>
+            </measureType>
+            <measureType>
+                <measure>bloodpressure</measure>
+                <value>104</value>
+            </measureType>
+            <measureType>
+                <measure>steps</measure>
+                <value>102</value>
+            </measureType>
+            <measureType>
+                <measure>bmi</measure>
+                <value>20.52</value>
+            </measureType>
+            <measureType>
+                <measure>heartrate</measure>
+                <value>111</value>
+            </measureType>
+        </healthProfile>
+    </person>
+    <person>
+        <idPerson>7</idPerson>
+        <firstname>Romeo</firstname>
+        <lastname>Capulet</lastname>
+        <birthdate>1981-10-20T00:00:00+01:00</birthdate>
+        <healthProfile>
+            <measureType>
+                <measure>height</measure>
+                <value>172</value>
+            </measureType>
+            <measureType>
+                <measure>bloodpressure</measure>
+                <value>101</value>
+            </measureType>
+            <measureType>
+                <measure>heartrate</measure>
+                <value>102</value>
+            </measureType>
+            <measureType>
+                <measure>steps</measure>
+                <value>109</value>
+            </measureType>
+            <measureType>
+                <measure>weight</measure>
+                <value>65</value>
+            </measureType>
+            <measureType>
+                <measure>bmi</measure>
+                <value>21.97</value>
+            </measureType>
+        </healthProfile>
+    </person>
+    <person>
+        <idPerson>18</idPerson>
+        <firstname>Chuck</firstname>
+        <lastname>Norris</lastname>
+        <birthdate>1944-12-31T00:00:00+01:00</birthdate>
+        <healthProfile/>
+    </person>
+    <person>
+        <idPerson>301</idPerson>
+        <firstname>Charlie</firstname>
+        <lastname>Swan</lastname>
+        <birthdate>1971-09-01T00:00:00+01:00</birthdate>
+        <healthProfile>
+            <measureType>
+                <measure>height</measure>
+                <value>157</value>
+            </measureType>
+            <measureType>
+                <measure>weight</measure>
+                <value>50</value>
+            </measureType>
+            <measureType>
+                <measure>weight</measure>
+                <value>80</value>
+            </measureType>
+            <measureType>
+                <measure>weight</measure>
+                <value>80</value>
+            </measureType>
+            <measureType>
+                <measure>weight</measure>
+                <value>80</value>
+            </measureType>
+        </healthProfile>
+    </person>
+</people>
+
+Request #2: GET /person/1 Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+Result: OK
+HTTP Status: 200
+<?xml version="1.0" encoding="UTF-8"?><person>
+    <idPerson>1</idPerson>
+    <firstname>Frodo</firstname>
+    <lastname>Baggins</lastname>
+    <birthdate>1990-09-02T00:00:00+02:00</birthdate>
+    <healthProfile>
+        <measureType>
+            <measure>heartrate</measure>
+            <value>100</value>
+        </measureType>
+        <measureType>
+            <measure>height</measure>
+            <value>157</value>
+        </measureType>
+        <measureType>
+            <measure>steps</measure>
+            <value>100</value>
+        </measureType>
+        <measureType>
+            <measure>bmi</measure>
+            <value>20.28</value>
+        </measureType>
+        <measureType>
+            <measure>bloodpressure</measure>
+            <value>120</value>
+        </measureType>
+        <measureType>
+            <measure>weight</measure>
+            <value>50</value>
+        </measureType>
+    </healthProfile>
+</person>
+
+Request #3: PUT /person/1 Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+Result: Created
+HTTP Status: 201
+<?xml version="1.0" encoding="UTF-8"?><person>
+    <idPerson>1</idPerson>
+    <firstname>Bilbo</firstname>
+    <lastname>Baggins</lastname>
+    <birthdate>1990-09-02T00:00:00+02:00</birthdate>
+    <healthProfile>
+        <measureType>
+            <measure>heartrate</measure>
+            <value>100</value>
+        </measureType>
+        <measureType>
+            <measure>height</measure>
+            <value>157</value>
+        </measureType>
+        <measureType>
+            <measure>steps</measure>
+            <value>100</value>
+        </measureType>
+        <measureType>
+            <measure>bmi</measure>
+            <value>20.28</value>
+        </measureType>
+        <measureType>
+            <measure>bloodpressure</measure>
+            <value>120</value>
+        </measureType>
+        <measureType>
+            <measure>weight</measure>
+            <value>50</value>
+        </measureType>
+    </healthProfile>
+</person>
+
+Request #4: POST /person Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+Result: OK
+HTTP Status: 200
+<?xml version="1.0" encoding="UTF-8"?><person>
+    <idPerson>401</idPerson>
+    <firstname>Chuck</firstname>
+    <lastname>Norris</lastname>
+    <birthdate>1944-12-31T23:00:00+01:00</birthdate>
+    <healthProfile>
+        <measureType>
+            <measure>height</measure>
+            <value>172</value>
+        </measureType>
+        <measureType>
+            <measure>weight</measure>
+            <value>78.9</value>
+        </measureType>
+    </healthProfile>
+</person>
+
+New Person Id is: 401
+Request #5: DELETE /person/401 Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+Result: No Content
+HTTP Status: 204
+GET Request to check if the person is deleted.
+Result: Not Found
+HTTP Status: 404
+Request #9: GET /measureTypes Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+Result: OK
+HTTP Status: 200
+<?xml version="1.0" encoding="UTF-8"?><measureTypes>
+    <measureType>bloodpressure</measureType>
+    <measureType>bmi</measureType>
+    <measureType>heartrate</measureType>
+    <measureType>height</measureType>
+    <measureType>steps</measureType>
+    <measureType>weight</measureType>
+</measureTypes>
+
+Request #6: GET /person/1/bloodpressure Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+Result: OK
+HTTP Status: 200
+<?xml version="1.0" encoding="UTF-8"?><healthMeasureHistories>
+    <measureHistory>
+        <mid>3</mid>
+        <value>120</value>
+        <created>2015-11-23T00:00:00+01:00</created>
+    </measureHistory>
+    <measureHistory>
+        <mid>55</mid>
+        <value>55</value>
+        <created>2015-11-23T00:00:00+01:00</created>
+    </measureHistory>
+    <measureHistory>
+        <mid>56</mid>
+        <value>200</value>
+        <created>2015-11-23T00:00:00+01:00</created>
+    </measureHistory>
+    <measureHistory>
+        <mid>506</mid>
+        <value>100</value>
+        <created>2015-11-23T00:00:00+01:00</created>
+    </measureHistory>
+    <measureHistory>
+        <mid>507</mid>
+        <value>102</value>
+        <created>2015-11-23T00:00:00+01:00</created>
+    </measureHistory>
+</healthMeasureHistories>
+
+Request #6: GET /person/301/bloodpressure Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+Result: OK
+HTTP Status: 200
+<?xml version="1.0" encoding="UTF-8"?><healthMeasureHistories/>
+
+The acquired measure type is: bloodpressure
+The acquired measure id is: 3
+Request #7: GET /person/1/bloodpressure/3 Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+Result: OK
+HTTP Status: 200
+<?xml version="1.0" encoding="UTF-8"?><healthMeasureHistories>
+    <measureHistory>
+        <mid>3</mid>
+        <value>120</value>
+        <created>2015-11-23T00:00:00+01:00</created>
+    </measureHistory>
+</healthMeasureHistories>
+
+Request #8: POST /person/1/bloodpressure Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+The number of counts of bloodpressure  is:6
+Result: OK
+HTTP Status: 200
+<?xml version="1.0" encoding="UTF-8"?><measureHistory>
+    <mid>706</mid>
+    <value>102</value>
+    <created>2015-11-23T15:09:09.847+01:00</created>
+</measureHistory>
+
+The number of counts of bloodpressure  is:7

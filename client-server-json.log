@@ -1,0 +1,334 @@
+Request #1: GET /person Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
+Result: OK
+HTTP Status: 200
+First Person Id: 1
+Last Person Id: 301
+[ {
+  "idPerson" : 1,
+  "firstname" : "Frodo",
+  "lastname" : "Baggins",
+  "birthdate" : 652226400000,
+  "measureType" : [ {
+    "measure" : "heartrate",
+    "value" : "100"
+  }, {
+    "measure" : "height",
+    "value" : "157"
+  }, {
+    "measure" : "steps",
+    "value" : "100"
+  }, {
+    "measure" : "bmi",
+    "value" : "20.28"
+  }, {
+    "measure" : "bloodpressure",
+    "value" : "120"
+  }, {
+    "measure" : "weight",
+    "value" : "50"
+  } ]
+}, {
+  "idPerson" : 2,
+  "firstname" : "Edward",
+  "lastname" : "Cullen",
+  "birthdate" : 557532000000,
+  "measureType" : [ {
+    "measure" : "weight",
+    "value" : "70"
+  }, {
+    "measure" : "heartrate",
+    "value" : "120"
+  }, {
+    "measure" : "height",
+    "value" : "170"
+  }, {
+    "measure" : "bloodpressure",
+    "value" : "100"
+  }, {
+    "measure" : "steps",
+    "value" : "120"
+  }, {
+    "measure" : "bmi",
+    "value" : "24.22"
+  } ]
+}, {
+  "idPerson" : 3,
+  "firstname" : "Jacob",
+  "lastname" : "Black",
+  "birthdate" : 589154400000,
+  "measureType" : [ {
+    "measure" : "heartrate",
+    "value" : "105"
+  }, {
+    "measure" : "steps",
+    "value" : "92"
+  }, {
+    "measure" : "bloodpressure",
+    "value" : "91"
+  }, {
+    "measure" : "bmi",
+    "value" : "29.19"
+  }, {
+    "measure" : "height",
+    "value" : "160"
+  }, {
+    "measure" : "weight",
+    "value" : "75"
+  } ]
+}, {
+  "idPerson" : 4,
+  "firstname" : "Isabella",
+  "lastname" : "Swan",
+  "birthdate" : 657673200000,
+  "measureType" : [ {
+    "measure" : "weight",
+    "value" : "50"
+  }, {
+    "measure" : "bloodpressure",
+    "value" : "98"
+  }, {
+    "measure" : "height",
+    "value" : "160"
+  }, {
+    "measure" : "steps",
+    "value" : "80"
+  }, {
+    "measure" : "heartrate",
+    "value" : "110"
+  }, {
+    "measure" : "bmi",
+    "value" : "19.53"
+  } ]
+}, {
+  "idPerson" : 5,
+  "firstname" : "Alice",
+  "lastname" : "Cullen",
+  "birthdate" : 673999200000,
+  "measureType" : [ {
+    "measure" : "height",
+    "value" : "165"
+  }, {
+    "measure" : "bmi",
+    "value" : "20.2"
+  }, {
+    "measure" : "steps",
+    "value" : "108"
+  }, {
+    "measure" : "bloodpressure",
+    "value" : "100"
+  }, {
+    "measure" : "weight",
+    "value" : "55"
+  }, {
+    "measure" : "heartrate",
+    "value" : "107"
+  } ]
+}, {
+  "idPerson" : 6,
+  "firstname" : "Jasper",
+  "lastname" : "Cullen",
+  "birthdate" : 573951600000,
+  "measureType" : [ {
+    "measure" : "height",
+    "value" : "171"
+  }, {
+    "measure" : "weight",
+    "value" : "60"
+  }, {
+    "measure" : "bloodpressure",
+    "value" : "104"
+  }, {
+    "measure" : "steps",
+    "value" : "102"
+  }, {
+    "measure" : "bmi",
+    "value" : "20.52"
+  }, {
+    "measure" : "heartrate",
+    "value" : "111"
+  } ]
+}, {
+  "idPerson" : 7,
+  "firstname" : "Romeo",
+  "lastname" : "Capulet",
+  "birthdate" : 372380400000,
+  "measureType" : [ {
+    "measure" : "height",
+    "value" : "172"
+  }, {
+    "measure" : "bloodpressure",
+    "value" : "101"
+  }, {
+    "measure" : "heartrate",
+    "value" : "102"
+  }, {
+    "measure" : "steps",
+    "value" : "109"
+  }, {
+    "measure" : "weight",
+    "value" : "65"
+  }, {
+    "measure" : "bmi",
+    "value" : "21.97"
+  } ]
+}, {
+  "idPerson" : 18,
+  "firstname" : "Chuck",
+  "lastname" : "Norris",
+  "birthdate" : -789008400000,
+  "measureType" : [ ]
+}, {
+  "idPerson" : 301,
+  "firstname" : "Charlie",
+  "lastname" : "Swan",
+  "birthdate" : 52527600000,
+  "measureType" : [ {
+    "measure" : "height",
+    "value" : "157"
+  }, {
+    "measure" : "weight",
+    "value" : "50"
+  }, {
+    "measure" : "weight",
+    "value" : "80"
+  }, {
+    "measure" : "weight",
+    "value" : "80"
+  }, {
+    "measure" : "weight",
+    "value" : "80"
+  } ]
+} ]
+Request #2: GET /person/1 Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
+Result: OK
+HTTP Status: 200
+{
+  "idPerson" : 1,
+  "firstname" : "Frodo",
+  "lastname" : "Baggins",
+  "birthdate" : 652226400000,
+  "measureType" : [ {
+    "measure" : "heartrate",
+    "value" : "100"
+  }, {
+    "measure" : "height",
+    "value" : "157"
+  }, {
+    "measure" : "steps",
+    "value" : "100"
+  }, {
+    "measure" : "bmi",
+    "value" : "20.28"
+  }, {
+    "measure" : "bloodpressure",
+    "value" : "120"
+  }, {
+    "measure" : "weight",
+    "value" : "50"
+  } ]
+}
+Request #3: PUT /person/1 Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
+Result: Created
+HTTP Status: 201
+{
+  "idPerson" : 1,
+  "firstname" : "Frodo",
+  "lastname" : "Baggins",
+  "birthdate" : 652226400000,
+  "measureType" : [ {
+    "measure" : "heartrate",
+    "value" : "100"
+  }, {
+    "measure" : "height",
+    "value" : "157"
+  }, {
+    "measure" : "steps",
+    "value" : "100"
+  }, {
+    "measure" : "bmi",
+    "value" : "20.28"
+  }, {
+    "measure" : "bloodpressure",
+    "value" : "120"
+  }, {
+    "measure" : "weight",
+    "value" : "50"
+  } ]
+}
+Request #4: POST /person Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
+Result: OK
+HTTP Status: 200
+{
+  "idPerson" : 402,
+  "firstname" : "Hermione",
+  "lastname" : "Grainger",
+  "birthdate" : 652226400000,
+  "measureType" : [ {
+    "measure" : "height",
+    "value" : "170"
+  }, {
+    "measure" : "weight",
+    "value" : "55"
+  } ]
+}
+New Person Id is: 402
+Request #5: DELETE /person/402 Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
+Result: No Content
+HTTP Status: 204
+GET Request to check if the person is deleted.
+Result: Not Found
+HTTP Status: 404
+Request #9: GET /measureTypes Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
+Result: OK
+HTTP Status: 200
+{
+  "measureType" : [ "bloodpressure", "bmi", "heartrate", "height", "steps", "weight" ]
+}
+Request #6: GET /person/1/bloodpressure Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
+Result: OK
+HTTP Status: 200
+[ {
+  "mid" : 3,
+  "value" : "120",
+  "created" : 1448233200000
+}, {
+  "mid" : 55,
+  "value" : "55",
+  "created" : 1448233200000
+}, {
+  "mid" : 56,
+  "value" : "200",
+  "created" : 1448233200000
+}, {
+  "mid" : 506,
+  "value" : "100",
+  "created" : 1448233200000
+}, {
+  "mid" : 507,
+  "value" : "102",
+  "created" : 1448233200000
+} ]
+Request #6: GET /person/301/bloodpressure Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
+Result: OK
+HTTP Status: 200
+[ ]
+The acquired measure type is: bloodpressure
+The acquired measure id is: 3
+Request #7: GET /person/1/bloodpressure/3 Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
+Result: OK
+HTTP Status: 200
+[ {
+  "mid" : 3,
+  "value" : "120",
+  "created" : 1448233200000
+} ]
+Request #8: POST /person/1/bloodpressure Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
+The number of counts of bloodpressure  is:5
+Result: OK
+HTTP Status: 200
+{
+  "mid" : 705,
+  "value" : "100",
+  "created" : 1448287749459
+}
+The number of counts of bloodpressure after post request is:6
