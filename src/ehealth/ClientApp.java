@@ -412,7 +412,7 @@ public class ClientApp {
 
 	private static URI getBaseURI() {
 		return UriBuilder.fromUri(
-				"https://introsdeassignmentehealth.herokuapp.com/ehealth/").build();
+				"http://introsdeassignmentehealth.herokuapp.com/ehealth/").build();
 	}
 
 	private static void printResponseAndSaveInLog(BufferedWriter bufferwriter, Response response) throws IOException {
