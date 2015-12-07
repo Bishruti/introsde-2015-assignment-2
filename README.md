@@ -1,4 +1,4 @@
-# Intorduction to Service Design And Engineering Assignment 2
+# Introduction to Service Design And Engineering Assignment 2
 Submitted By: Bishruti Siku
 
 This assignment is mainly focused on using RESTful APIs to design and implement a Client and Server architecture. In this project I have stored data in database using SQLite and performed CRUD operations with their respective APIs. This project is deployed in Heroku and can be used to perform the CRUD operations.
